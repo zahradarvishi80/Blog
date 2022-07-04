@@ -1,0 +1,20 @@
+.NextArrow {
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  background-color: #374151;
+  border-radius: 19px;
+  padding: 13px;
+  top: 30%;
+  transform: translateY(50%);
+  right: 0;
+  margin-right: 140px;
+  color: black;
+}
+.NextArrow::after,
+.NextArrow:hover {
+  /* display: block; */
+  background-color: #00213e;
+  border-radius: 18px;
+  color: white;
+}

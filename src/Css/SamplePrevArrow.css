@@ -1,0 +1,21 @@
+.PrevArrow {
+  display: flex;
+  /* background: white; */
+  z-index: 1;
+  left: -20;
+  position: absolute;
+  background-color: white;
+  border-radius: 15px;
+  padding:13px;
+  top: 30%;
+  transform: translateY(50%);
+  margin-left: 140px;
+  color: black;
+}
+.PrevArrow::after,
+.PrevArrow:hover {
+  display: flex;
+  background-color: #00213e;
+  border-radius: 18px;
+  color: white;
+}
