@@ -79,8 +79,9 @@ return(
                 <p className="text-white font-bold" dangerouslySetInnerHTML={{__html:item.content}}></p>
                 </div>
                 <div className="flex w-[200px] h-[200px] flex-col">
-                <p className="text-white font-bold">{item.creator.username}</p>
-                <p className="text-white font-bold">{item.creator.name}</p></div>
+                {/* <p className="text-white font-bold">{item.creator.username}</p> */}
+                {/* <p className="text-white font-bold">{item.creator.name}</p> */}
+                </div>
             </Link>
          </div>
     )

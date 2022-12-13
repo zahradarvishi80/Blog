@@ -1,11 +1,10 @@
-
+import TextField from '@mui/material/TextField';
 import React,{useEffect,useState,useRef} from "react";
 import Cookies from "universal-cookie";
 import { Link, useParams,useNavigate } from "react-router-dom";
 // import { type } from "@testing-library/user-event/dist/type";
 const EditUser=()=>{
-    const[load,setLoad]=useState(true)
-    const[blog,setBlog]=useState()
+
     const cookies = new Cookies();
     const navigate=useNavigate()
     const[type,setType]=useState()

@@ -4,11 +4,11 @@ import Signin from "./Signin";
 import WebLayout from "./WebLayout"
 import DashboardLayout from "./DashboardLayout"
 import MyEditor from "./DashboardHome";
-import EditProfile from "./EditProfile";
-import SentBlog from "./SentBlog";
+// import EditProfile from "./EditProfile";
+// import SentBlog from "./SentBlog";
 import './index.css';
 import Home from "./Home";
-import PageDashboard from "./PageDashboard";
+// import PageDashboard from "./PageDashboard";
 import SingleBlog from "./SingleBlog";
 import AllBlog from "./AllBlog";
 import AllUser from "./AllUser";
@@ -28,10 +28,10 @@ const App=() =>{
    
       </Route>
       <Route path='/dashboard/' element={<DashboardLayout />} >
-        <Route path="" element={<PageDashboard/>} />
+        {/* <Route path="" element={<PageDashboard/>} /> */}
         <Route path='MyEditor' element={<MyEditor />} />
-        <Route path='EditProfile' element={<EditProfile />} />
-        <Route path='SentBlog' element={<SentBlog />} />
+        {/* <Route path='EditProfile' element={<EditProfile />} /> */}
+        {/* {/* <Route path='SentBlog' element={<SentBlog />} /> */} 
         <Route path="SingleBlog/:id" element={<SingleBlog />} />
         <Route path="SingleUser/:id" element={<SingleUser />} />
         <Route path="MyBlog" element={<MyBlog />} />

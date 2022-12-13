@@ -74,37 +74,7 @@ console.log(content);
           }}
       console.log(blog);
     return(
-    //     <div className="flex flex-col mt-10">
-    //     <input className="w-[150px] h-[50px] border-2 border-black mt-10" placeholder="title" value={title} onChange={(e)=>setTitle(e.target.value)}  />
-      
-    //     <>
-    //    <Editor
-    //      onInit={(evt, editor) => editorRef.current = editor}
-    //     //  value={blog.content}
-    //     value={content}
-    //      init={{
-    //        height: 150,
-    //        menubar: false,
-    //        plugins: [
-    //          'advlist autolink lists link image charmap print preview anchor',
-    //          'searchreplace visualblocks code fullscreen',
-    //          'insertdatetime media table paste code help wordcount'
-    //        ],
-    //        toolbar: 'undo redo | formatselect | ' +
-    //        'bold italic backcolor | alignleft aligncenter ' +
-    //        'alignright alignjustify | bullist numlist outdent indent | ' +
-    //        'removeformat | help',
-    //        content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }'
-    //      }}
-    //    />
-    //    <button onClick={log}>Log editor content</button>
-    //  </>
-
-    //     <input className="w-[150px] h-[50px] border-2 border-black mt-10" placeholder="imgurl" value={imgurl} onChange={(e)=>setImgurl(e.target.value)}  />
-    //     <button className="w-[150px] h-[50px] border-2 border-black mt-10 bg-red-300" onClick={()=>EditBlog()}> Edit</button>
-    //      <h1>Edit profile</h1></div>
-
-
+   
     <div className="flex flex-col   justify-center items-center w-[100%] h-full">
 
     <div className="flex w-[40%] h-[70px] border-4 m-5 rounded-xl border-[#374151] justify-center items-center">

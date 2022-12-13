@@ -1,16 +1,13 @@
 import React,{useRef,useState} from "react";
 import Cookies from "universal-cookie";
-// import { Editor, EditorState } from "draft-js";
 import "draft-js/dist/Draft.css";
-import { Navigate, useNavigate } from "react-router-dom";
-// import React, { useRef } from 'react';
+import {  useNavigate } from "react-router-dom";
 import { Editor } from '@tinymce/tinymce-react';
   const DashboardHome = () => {
  const navigate =useNavigate()
   const[title,setTitle]=useState("")
   const[imgurl,setImgurl]=useState("")
-  // const [content, setContent] = React.useState(() =>
-  //   EditorState.createEmpty());
+
   const cookies = new Cookies();
    const token=cookies.get("ut")
       const SENT = async () => {
